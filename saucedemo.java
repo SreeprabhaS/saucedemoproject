@@ -29,7 +29,7 @@ public class saucedemo {
         
         
      Select obj= new Select(dropdown);
-	//obj.selectByValue("lohi");
+	
 		obj.selectByVisibleText("Price (low to high)");
 		
 		WebElement addToCartButton1=driver.findElement(By.id("add-to-cart-sauce-labs-bike-light"));
@@ -91,30 +91,6 @@ public class saucedemo {
 	driver.close();
 
 	
-		
-		//driver.navigate().back();
-		
-		
-		
-		
-///		WebElement addToCartButton = driver.findElement(By.className("btn_inventory"));
-   ////     addToCartButton.click();
-		
-//		Thread.sleep(300);
-	//driver.findElement(By.xpath("//button[@id='add-to-cart-sauce-labs-onesie']")).submit();
-	
-	
-	
-	
-
-	
-		
-	//	WebElement search=driver.findElement(By.xpath("//*[@id=\"header_container\"]/div[2]/div/span/select"));
-		//search.sendKeys("Price (low to high)");
-		//search.click();
-		
-		
-		
 		
 		
 		
