@@ -81,7 +81,7 @@ public class saucedemo {
 		driver.findElement(By.id("back-to-products")).click();
 		
 		
-	WebElement menu=	driver.findElement(By.className("bm-burger-button"));
+	WebElement menu=driver.findElement(By.className("bm-burger-button"));
 	menu.click();
 	
 	
